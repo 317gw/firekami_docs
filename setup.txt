@@ -1,0 +1,16 @@
+.\venv\Scripts\activate
+cd .\mainsite\
+mkdocs serve
+
+
+\s?\[\s\d*\s\]\s?
+
+
+\s?[《》]\s?
+ 
+
+\s?（\s?
+ ( 
+
+\s?）\s?
+ ) 

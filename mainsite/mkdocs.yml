@@ -1,0 +1,106 @@
+site_name: FireKami Docs
+
+
+nav:
+  - 主页 Home: index.md # 主页
+
+  - 游戏开发 Game Dev: # 游戏开发
+    - ---游戏开发 Game Dev: game_dev/game_dev.md
+    - HYPERLUNATIC: # HYPERLUNATIC 跑酷
+      - 简介: game_dev/hyperlunatic/hyperlunatic.md
+    - 东冰港回收厂 TongPing Port Recycling Plant: # 东冰港回收厂 TongPing Port Recycling Plant 垃圾分类
+      - 简介: game_dev/tongping_port_recycling_plant/tongping_port_recycling_plant.md
+    - Erikmoji: # 埃里克的默剧 Erikmoji 文字RPG 
+      - 简介: game_dev/erikmoji/erikmoji.md
+    - Reaper's Black Rogue: # 收割者的黑Rogue  Reaper's Black Rogue 刷宝物品管理
+      - 简介: game_dev/reaper_s_black_rogue/reaper_s_black_rogue.md
+
+  - 文章 Essay:
+    - ---文章 Essay: essay/essay.md
+    - 【游戏史】一类传统游戏方式的发展树: essay/003_【游戏史】一类传统游戏方式的发展树.md
+    - 【关卡设计】固定的弹射物/飞行物躲避、移动平台跳跃关卡: essay/002_【关卡设计】固定的弹射物 飞行物躲避、移动平台跳跃关卡.md
+    - ULTRAKLL游戏鉴赏《最棒的“武器”射击游戏》 & 其他游戏杂谈 & 万圣节快乐！: essay/001_ULTRAKLL游戏鉴赏《最棒的“武器”射击游戏》 & 其他游戏杂谈 & 万圣节快乐！.md
+
+  - 小说 Fiction: # 小说
+    - ---小说 Fiction: fiction/fiction.md
+    - 虚幻的白阳梦魇 Illusory Daymare: # 虚幻的白阳梦魇 Illusory Daymare 小马宝莉g4动画的同人，长篇小说，单元剧模式
+      - fiction/illusory_daymare/illusory_daymare.md
+    - 野山崖 Wild Cliff: # 野山崖 Wild Cliff 原创解构主义奇幻小说
+      - fiction/wild_cliff/wild_cliff.md
+    - 短篇 Short Story: # 短篇
+      - fiction/short_story/short_story.md
+    - 黑历史 Bad History: # 黑历史
+      - fiction/bad_history/bad_history.md
+
+  - 世界观设定 World Setting: # 世界观设定
+    - ---世界观设定 World Setting: world_setting/world_setting.md
+    - 神秘学 Occultism: # 神秘学 Occultism
+      - ---神秘学 Occultism: world_setting/occultism/occultism.md 
+      - 经典神秘学 Classics Occultism: world_setting/occultism/classics_occultism.md
+      - 前沿理论 Advanced Theory: world_setting/occultism/advanced_theory.md # 前沿理论 Advanced Theory
+      - 魔法文 Magic Language: world_setting/occultism/magic_language.md # 魔法文/语言 Magic Language
+    - 史莱姆形态集鉴 Slime Form Illustrated: world_setting/slime_form_illustrated.md # 史莱姆形态集鉴 Slime Form Illustrated
+    - 人的妖精 Person`s Yousei: world_setting/person_s_yousei.md # 人的妖精 Person`s Yousei
+    - 传闻 Rumor: world_setting/rumor.md # 传闻 Rumor
+
+  - 博客 Blog: # 博客
+    - blog/blog.md
+
+  - 关于 About: about.md # 关于
+
+
+theme:
+  name: material
+  favicon: img/logo_ico512_8b_d.png
+  # logo: img/logo_icoW512_8b.png
+  icon:
+    repo: fontawesome/brands/github
+  # language: zh
+
+  features:
+    - navigation.instant
+    # - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+    # - navigation.sections
+    - navigation.expand
+    # - navigation.indexes
+    - navigation.footer
+    - navigation.prune
+    # - toc.integrate
+    - navigation.top
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+
+# extra:
+#   alternate:
+#     - name: English
+#       link: /en/ 
+#       lang: en
+#     - name: 简体中文
+#       link: /zh/
+#       lang: zh
+
+
+repo_url: https://github.com/317gw/HYPERLUNATIC
+repo_name: 317gw/HYPERLUNATIC
+
+copyright: Copyright &copy; 2025 - 2026 FireKami
