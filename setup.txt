@@ -14,3 +14,12 @@ mkdocs serve
 
 \s?）\s?
  ) 
+
+
+此前改过名 DOS 到 firekami_docs
+报错
+
+PS D:\FireKami Design\firekami_docs> .\venv\Scripts\activate
+>> cd .\mainsite\
+(venv) PS D:\FireKami Design\firekami_docs\mainsite> mkdocs build
+Fatal error in launcher: Unable to create process using '"D:\FireKami Design\DOS\venv\Scripts\python.exe"  "D:\FireKami Design\firekami_docs\venv\Scripts\mkdocs.exe" build': ???????????
